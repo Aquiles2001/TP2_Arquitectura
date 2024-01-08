@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1.1 (64-bit)
+# SW Build 3900603 on Fri Jun 16 19:30:25 MDT 2023
+# IP Build 3900379 on Sat Jun 17 05:28:05 MDT 2023
+# SharedData Build 3899622 on Fri Jun 16 03:34:24 MDT 2023
+# Start of session at: Sun Jan  7 16:21:41 2024
+# Process ID: 33307
+# Current directory: /home/aquiles/Arquitectura_de_computadoras/TP2_Arquietctura/TP2_Arquietctura.runs/synth_1
+# Command line: vivado -log UART_Tx.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source UART_Tx.tcl
+# Log file: /home/aquiles/Arquitectura_de_computadoras/TP2_Arquietctura/TP2_Arquietctura.runs/synth_1/UART_Tx.vds
+# Journal file: /home/aquiles/Arquitectura_de_computadoras/TP2_Arquietctura/TP2_Arquietctura.runs/synth_1/vivado.jou
+# Running On: aquiles, OS: Linux, CPU Frequency: 3302.375 MHz, CPU Physical cores: 4, Host memory: 12260 MB
+#-----------------------------------------------------------
+source UART_Tx.tcl -notrace
