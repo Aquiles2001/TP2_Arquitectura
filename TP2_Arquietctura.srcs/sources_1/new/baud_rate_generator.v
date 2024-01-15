@@ -8,28 +8,34 @@
 
 module baud_rate_generator
     #(
-        parameter N = 8,   // Numero de bit en el contador
-        parameter M = 163 // Cantidad de Ticks a contar
+        parameter N = 4,   // Numero de bit en el contador
+        parameter M = 10 // Cantidad de Ticks a contar
     )
 
     (
-        input  wire clk, reset,
-        output wire max_tick,
+        // Entradas
+        input  wire         clock,
+        input  wire         reset,
+        
+        // Salidas
+        output wire         max_tick,
         output wire [N-1:0] q
     );
     
     reg  [N-1:0] r_reg;  // Registro para almacenar el valor actual del contador
     wire [N-1:0] r_next; // Cable para el proximo valor del contador
     
-    always @(posedge clk, posedge reset)
-        if (reset)
-            r_reg <= 0;
+    always @(posedge clock, posedge reset)
+        begin
+            if (reset)
+                r_reg <= 0;
         
-        else
-            r_reg <= r_next;
+            else
+                r_reg <= r_next;
+        end
     
     // Logica para el proximo valor del contador
-    assign r_next = (r_reg == (M-1)) ? 0 : r_reg + 1;
+    assign r_next = (r_reg == (M-1)) ? { N {1'b0}} : r_reg + 1;
     
     // Salida q es igual al valor del contador
     assign q = r_reg;

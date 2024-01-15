@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1704655299">
-  <File Type="VDS-TIMINGSUMMARY" Name="UART_Tx_timing_summary_synth.rpt"/>
   <File Type="RDS-DCP" Name="UART_Tx.dcp"/>
-  <File Type="RDS-UTIL-PB" Name="UART_Tx_utilization_synth.pb"/>
-  <File Type="RDS-UTIL" Name="UART_Tx_utilization_synth.rpt"/>
-  <File Type="RDS-PROPCONSTRS" Name="UART_Tx_drc_synth.rpt"/>
-  <File Type="RDS-RDS" Name="UART_Tx.vds"/>
-  <File Type="REPORTS-TCL" Name="UART_Tx_reports.tcl"/>
-  <File Type="VDS-TIMING-PB" Name="UART_Tx_timing_summary_synth.pb"/>
+  <File Type="RDS-UTIL-PB" Name="UART_utilization_synth.pb"/>
   <File Type="PA-TCL" Name="UART_Tx.tcl"/>
+  <File Type="RDS-UTIL" Name="UART_utilization_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="UART_Tx_reports.tcl"/>
+  <File Type="RDS-RDS" Name="UART_Tx.vds"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/UART_Tx.v">

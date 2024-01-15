@@ -1,0 +1,14 @@
+0.7
+2020.2
+Jun 16 2023
+19:36:26
+/home/aquiles/Arquitectura_de_computadoras/TP2_Arquitectura_de_computadoras/TP2_Arquietctura.sim/sim_1/behav/xsim/glbl.v,1683266558,verilog,,,,glbl,,,,,,,,
+/home/aquiles/Arquitectura_de_computadoras/TP2_Arquitectura_de_computadoras/TP2_Arquietctura.srcs/sim_1/new/top_tb.v,1705295434,verilog,,,,top_tb,,,,,,,,
+/home/aquiles/Arquitectura_de_computadoras/TP2_Arquitectura_de_computadoras/TP2_Arquietctura.srcs/sources_1/new/ALU_logic.v,1705294296,verilog,,/home/aquiles/Arquitectura_de_computadoras/TP2_Arquitectura_de_computadoras/TP2_Arquietctura.srcs/sources_1/new/FIFO.v,,ALU_logic,,,,,,,,
+/home/aquiles/Arquitectura_de_computadoras/TP2_Arquitectura_de_computadoras/TP2_Arquietctura.srcs/sources_1/new/FIFO.v,1705294316,verilog,,/home/aquiles/Arquitectura_de_computadoras/TP2_Arquitectura_de_computadoras/TP2_Arquietctura.srcs/sources_1/new/UART.v,,FIFO,,,,,,,,
+/home/aquiles/Arquitectura_de_computadoras/TP2_Arquitectura_de_computadoras/TP2_Arquietctura.srcs/sources_1/new/UART.v,1705294437,verilog,,/home/aquiles/Arquitectura_de_computadoras/TP2_Arquitectura_de_computadoras/TP2_Arquietctura.srcs/sources_1/new/UART_rx.v,,UART,,,,,,,,
+/home/aquiles/Arquitectura_de_computadoras/TP2_Arquitectura_de_computadoras/TP2_Arquietctura.srcs/sources_1/new/UART_rx.v,1705294414,verilog,,/home/aquiles/Arquitectura_de_computadoras/TP2_Arquitectura_de_computadoras/TP2_Arquietctura.srcs/sources_1/new/UART_tx.v,,UART_rx,,,,,,,,
+/home/aquiles/Arquitectura_de_computadoras/TP2_Arquitectura_de_computadoras/TP2_Arquietctura.srcs/sources_1/new/UART_tx.v,1705294471,verilog,,/home/aquiles/Arquitectura_de_computadoras/TP2_Arquitectura_de_computadoras/TP2_Arquietctura.srcs/sources_1/new/baud_rate_generator.v,,UART_tx,,,,,,,,
+/home/aquiles/Arquitectura_de_computadoras/TP2_Arquitectura_de_computadoras/TP2_Arquietctura.srcs/sources_1/new/baud_rate_generator.v,1705294496,verilog,,/home/aquiles/Arquitectura_de_computadoras/TP2_Arquitectura_de_computadoras/TP2_Arquietctura.srcs/sources_1/new/interface.v,,baud_rate_generator,,,,,,,,
+/home/aquiles/Arquitectura_de_computadoras/TP2_Arquitectura_de_computadoras/TP2_Arquietctura.srcs/sources_1/new/interface.v,1705294543,verilog,,/home/aquiles/Arquitectura_de_computadoras/TP2_Arquitectura_de_computadoras/TP2_Arquietctura.srcs/sources_1/new/top.v,,interface,,,,,,,,
+/home/aquiles/Arquitectura_de_computadoras/TP2_Arquitectura_de_computadoras/TP2_Arquietctura.srcs/sources_1/new/top.v,1705294624,verilog,,/home/aquiles/Arquitectura_de_computadoras/TP2_Arquitectura_de_computadoras/TP2_Arquietctura.srcs/sim_1/new/top_tb.v,,top,,,,,,,,
